@@ -1,10 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kloon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home_page.css') }}">
+    <title>Kloon - Web Player</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/kl_logo.jpeg') }}">
 </head>
-<body>
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+    @media screen and (prefers-color-scheme: light) {
+        body {
+            background-color: black;
+            color: white;
+        }
+    }
+</style>
 
+<body>
+<div class="block" id="main">
+    <a id="home" href="/"><img src="{{ url_for('static', filename='images/kl_logo.jpeg') }}" width="70" height="70"><h1>Kloon</h1></a>
+    <br>
+    <a href="/"><img src="{{ url_for('static', filename='images/home_icon.png') }}" width="50" height="40"><h4 id="no1">Home</h4></a>
+
+    <a href="/toAddTable/"><img src="{{ url_for('static', filename='images/search_icon.png') }}" width="45" height="40"><h4 id="no2">Search</h4></a>
+    <a href="/toOrderTracker/"><img src="{{ url_for('static', filename='images/library_icon.png') }}" width="50" height="40"><h4 id="no3">Your Library</h4></a>
+    <br>
+    <br>
+    <a><img src="{{ url_for('static', filename='images/create_playlist_icon.png') }}" width="50" height="40"><h4 id="no4">Create Playlist</h4></a>
+    <a><img src="{{ url_for('static', filename='images/like_icon.png') }}" width="45" height="40"><h4 id="no5">Liked Songs</h4></a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="https://www.spotify.com/uk/legal/cookies-policy/" target="_blank" style="text-decoration: underline">Cookies</a>
+    <a href="https://www.spotify.com/uk/legal/privacy-policy/" target="_blank">Privacy</a>
+
+</div>
+
+<div class="banner">
+    <div class="signup">
+        <a>Sign up</a>
+    </div>
+    <div class="login">
+        <a href="/loginPage/" id="no6">Log in</a>
+    </div>
+</div>
 </body>
 </html>

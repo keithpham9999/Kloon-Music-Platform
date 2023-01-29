@@ -1,0 +1,171 @@
+#main {
+    width: 350px;
+    display: block;
+    height: auto;
+}
+
+
+.block {
+    position: fixed;
+    display: inline-block;
+    text-align: left;
+    width: 25px;
+    height: auto;
+    left: -40px;
+}
+
+.banner {
+    position: fixed;
+    display: inline-block;
+    text-align: left;
+    width: 1000px;
+    height: 100px;
+    border-color: yellow;
+    border-radius: 3px;
+    margin-left: 400px;
+}
+
+button {
+    margin: auto;
+    background-color: #43b6ce;
+    border: none;
+    border-bottom: 2px solid #dbdbdb;
+    color: white;
+    width: 190px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.scrollView {
+    margin-top: 10px;
+    overflow: auto;
+}
+
+a {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 57%;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+    margin-left: 20%;
+    margin-right: auto;
+    display: block;
+    border-color: black;
+    text-align: left;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: black;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Courier New', monospace;
+    float: right;
+    position: relative;
+    bottom: 5px;
+    right: 40px;
+
+}
+
+.img {
+    float: left;
+}
+
+h4 {
+    color: grey;
+    float: right;
+
+
+}
+
+h4:hover {
+    color: white;
+}
+
+
+#no1 {
+    position: relative;
+    bottom: 10px;
+    right: 100px;
+}
+
+#no2 {
+    position: relative;
+    bottom: 13px;
+    right: 50px;
+}
+
+#no3 {
+    position: relative;
+    bottom: 55px;
+    right: 50px;
+}
+
+#no4 {
+    position: relative;
+    bottom: 55px;
+    right: 30px;
+}
+
+#no5 {
+    position: relative;
+    bottom: 55px;
+    right: 55px;
+}
+
+#no6 {
+    padding: 10px 2px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 75px;
+}
+
+#no6:hover {
+    transform: scale(1.02);
+}
+div {
+    height: 150px;
+    width: 150px;
+    border: 5px solid yellow;
+    float: left;
+}
+
+.login {
+    margin-left: 0px;
+    height: 90px;
+}
+
+.signup {
+    margin-left: 100px;
+    height: 90px;
+}
