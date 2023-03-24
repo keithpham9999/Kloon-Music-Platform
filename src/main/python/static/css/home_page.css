@@ -18,7 +18,7 @@
     position: fixed;
     display: inline-block;
     text-align: left;
-    width: 1000px;
+    width: 1020px;
     height: 100px;
     border-color: yellow;
     border-radius: 3px;
@@ -166,6 +166,6 @@ div {
 }
 
 .signup {
-    margin-left: 100px;
+    margin-left: 700px;
     height: 90px;
 }
