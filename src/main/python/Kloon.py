@@ -16,5 +16,4 @@ def index():
     return render_template('home_page.html')
 
 if __name__ == "__main__":
-    Database.music_reset()
     app.run(debug=True, port=6969)

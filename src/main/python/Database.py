@@ -82,7 +82,8 @@ class Database:
         # This method was required for testing against a database, it will be removed once there is a database
         # set in place
         try:
-            self.execute("INSERT INTO music values(1, "music/4B x Junkie Kid - Love Is Dead.mp3", 'N/A')")
+            self.execute("INSERT INTO music values(1, 'music/4B x Junkie Kid - Love Is Dead.mp3','Love Is Dead',"
+                         "'4B, Junkie K', 'Hardstyle')")
             self.execute("INSERT INTO music values(2, 'Chef', 'N/A')")
             self.execute("INSERT INTO music values(3, 'Manager', 'N/A')")
             self.commit()
