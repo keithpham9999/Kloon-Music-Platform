@@ -12,6 +12,12 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = "secret key"
 
 
+@app.route('/loginPage/')
+def login_page_redirect():
+    """Loads login page
+    """
+    return render_template('login.html')
+
 
 @app.route('/', methods=['POST', 'GET'])
 def index():

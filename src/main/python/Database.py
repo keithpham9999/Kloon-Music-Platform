@@ -46,6 +46,7 @@ class Database:
             artist_name       VARCHAR(16) NOT NULL,
             genre        VARCHAR(16) NOT NULL
             )''')
+
         self.commit()
 
     def fill_music(self):
@@ -60,11 +61,13 @@ class Database:
         except sqlite3.IntegrityError:
             pass
 
+
     def music_reset(self):
         """Resets the music table
         """
         self.execute("DROP table IF EXISTS music")
         self.commit()
+        self.drop_sqlite_master()
         self.create_music_tables()
         self.fill_music()
 
