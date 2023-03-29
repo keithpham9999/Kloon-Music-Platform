@@ -18,6 +18,12 @@ def login_page_redirect():
     """
     return render_template('login.html')
 
+@app.route('/musicPage/', methods=["POST", "GET"])
+def music_page_redirect():
+    """Load music page
+    """
+    return render_template('music_page.html')
+
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
@@ -29,9 +35,7 @@ def add_music():
     """Adds music into database
     """
     music = Database()
-    music.create_music_tables()
-    music.create_music_tables()
-    music.fill_music()
+    music.music_reset()
     music.close()
 
 
