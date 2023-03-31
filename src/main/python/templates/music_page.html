@@ -4,13 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home_page.css') }}">
-    <title>Kloon - Web Player</title>
+    <title>Music Board</title>
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/kl_logo.jpeg') }}">
 </head>
 
 
 <body>
-
-
+    <div class="music_table">
+        <table id="shade">
+            <tr>
+                <th id="play">Play</th>
+                <th id="name">Name</th>
+                <th id="artist">Artist</th>
+                <th id="genre">Genre</th>
+            </tr>
+            {% for track in tracks %}
+                <!--Only show on the table is the item is available, which has quantity > 0-->
+                    <tr>
+                        <td>
+                            <audio controls>
+                                <source src="{{ url_for('static', filename=track[5]) }}" type="audio/mpeg">
+                            </audio>
+                        </td>
+                        <td>{{ track[2] }}</td>
+                        <td>{{ track[3] }}</td>
+                        <td id="central">{{ track[4] }}</td>
+                        <td id="central">{{ track[7] }}</td>
+                    </tr>
+            {% endfor %}
+    </div>
 </body>
 </html>

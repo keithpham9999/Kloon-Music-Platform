@@ -30,6 +30,8 @@ input {
 }
 
 img {
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 
 
@@ -53,8 +55,15 @@ button:hover {
 }
 
 h1 {
+    margin-left: 40%;
     color: #414141;
-    text-align: left;
+    text-shadow: 1px 1px #dbdbdb;
+
+}
+
+h4 {
+    margin-left: 25%;
+    color: #414141;
     text-shadow: 1px 1px #dbdbdb;
 
 }

@@ -12,8 +12,6 @@ class Database:
         self.conn = sqlite3.connect(ad)
         self.cursor = self.conn.cursor()
 
-
-
     def execute(self, query, vars=""):
         """Executes the query
 
@@ -31,7 +29,6 @@ class Database:
         """Retrieves all data gathered since the last query
         """
         return self.cursor.fetchall()
-
 
     def create_music_tables(self):
         """Constructs the tables used for storing music system
@@ -51,6 +48,21 @@ class Database:
             '''CREATE TABLE IF NOT EXISTS genre(
             genre_id  INT PRIMARY KEY,
             genre_name      VARCHAR(16) NOT NULL
+            )''')
+
+        self.commit()
+
+    def create_user_table(self):
+        """Constructs the tables used for storing list of users
+        """
+
+        self.execute(
+            '''CREATE TABLE IF NOT EXISTS user(
+            user_id  INT PRIMARY KEY,
+            first_name      VARCHAR(16) NOT NULL,
+            last_name      VARCHAR(16) NOT NULL,
+            username      VARCHAR(16) NOT NULL,
+            password      VARCHAR(16) NOT NULL
             )''')
 
         self.commit()
@@ -391,13 +403,9 @@ class Database:
                          "'Wet Like Water',"
                          "'Lenzman & Redeyes', 'Drum&Bass','music/Lenzman & Redeyes - Wet Like Water.mp3')")
 
-
-
-
             self.commit()
         except sqlite3.IntegrityError:
             pass
-
 
     def music_reset(self):
         """Resets the music table
@@ -408,6 +416,13 @@ class Database:
         self.create_music_tables()
         self.fill_music()
         self.fill_genre()
+
+    def user_reset(self):
+        """Resets the user table
+        """
+        self.execute("DROP table IF EXISTS user")
+        self.commit()
+        self.create_user_table()
 
     def close(self):
         """Terminates the connection to the database

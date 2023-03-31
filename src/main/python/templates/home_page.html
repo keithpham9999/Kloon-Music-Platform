@@ -12,6 +12,7 @@
         background-color: black;
         color: white;
     }
+
     @media screen and (prefers-color-scheme: light) {
         body {
             background-color: black;
@@ -22,16 +23,30 @@
 
 <body>
 <div class="block" id="main">
-    <a id="home" href="/"><img src="{{ url_for('static', filename='images/kl_logo.jpeg') }}" width="70" height="70"><h1>Kloon</h1></a>
+    <a id="home" href="/"><img src="{{ url_for('static', filename='images/kl_logo.jpeg') }}" width="70" height="70">
+        <h1>Kloon</h1></a>
     <br>
-    <a href="/"><img src="{{ url_for('static', filename='images/home_icon.png') }}" width="50" height="40"><h4 id="no1">Home</h4></a>
+    <a href="/"><img src="{{ url_for('static', filename='images/home_icon.png') }}" width="50" height="40"><h4 id="no1">
+        Home</h4></a>
 
-    <a href="/toAddTable/"><img src="{{ url_for('static', filename='images/search_icon.png') }}" width="45" height="40"><h4 id="no2">Search</h4></a>
-    <a href="/toOrderTracker/"><img src="{{ url_for('static', filename='images/library_icon.png') }}" width="50" height="40"><h4 id="no3">Your Library</h4></a>
     <br>
     <br>
-    <a><img src="{{ url_for('static', filename='images/create_playlist_icon.png') }}" width="50" height="40"><h4 id="no4">Create Playlist</h4></a>
-    <a><img src="{{ url_for('static', filename='images/like_icon.png') }}" width="45" height="40"><h4 id="no5">Liked Songs</h4></a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
     <br>
@@ -46,12 +61,56 @@
 </div>
 
 <div class="banner">
-    <div class="signup">
-        <a>Sign up</a>
-    </div>
     <div class="login">
         <a href="/loginPage/" id="no6">Log in</a>
     </div>
+</div>
+
+
+<div class="welcome">
+    <div id="first">
+        <h1>~~~Welcome to Kloon~~~</h1>
+    </div>
+
+    <div id="second">
+        <h1>This is a drum and bass focused music streaming platform</h1>
+    </div>
+
+    <div id="third">
+        <h1>Here are 3 of featured classical songs for you to try and listen to</h1>
+    </div>
+
+    <div class="song">
+        <div id="first_track">
+            <img src="{{ url_for('static', filename='images/desire_artwork.jpeg') }}" width="200" height="200">
+            <h3>Desire</h3>
+            <br>
+            <audio controls>
+                <source src="{{ url_for('static', filename=tracks[14][5]) }}" type="audio/mpeg">
+            </audio>
+        </div>
+        <div id="second_track">
+            <img src="{{ url_for('static', filename='images/here_for_you_artwork.jpeg') }}" width="200" height="200">
+            <h3>Here For You</h3>
+            <br>
+            <audio controls>
+                <source src="{{ url_for('static', filename=tracks[94][5]) }}" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div id="third_track">
+            <img src="{{ url_for('static', filename='images/immortal_artwork.jpeg') }}" width="200" height="200">
+            <br>
+            <h3>Illuminate</h3>
+            <br>
+            <audio controls>
+                <source src="{{ url_for('static', filename=tracks[62][5]) }}" type="audio/mpeg">
+            </audio>
+        </div>
+
+    </div>
+
+
 </div>
 </body>
 </html>

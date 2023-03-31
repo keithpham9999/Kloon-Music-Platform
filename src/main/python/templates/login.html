@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
-    <title>Login - Kloon</title>
+    <title>Login</title>
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/kl_logo.jpeg') }}">
 </head>
 
 <body>
-<form action="/musicPage/" method="POST">
+<form action="/loginPage/" method="POST">
     <img class="center" src="{{ url_for('static', filename='images/kl_logo.jpeg') }}" height=125>
     <h1>Kloon</h1>
     <br>
@@ -26,7 +26,7 @@
     {% else %}
         <a id="blank" style="color:#f0f0f0">.</a>
     {% endif %}
-    <button type="submit" href="/musicPage/">Submit</button>
+    <button type="submit">Submit</button>
     <br>
     <a id="return" href="/">Return</a>
 </form>
