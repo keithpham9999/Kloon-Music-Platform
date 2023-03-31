@@ -1,8 +1,7 @@
-import sqlite3
-
 from Database import Database
 
-#from src.main.python.Database import Database
+
+# from src.main.python.Database import Database
 
 class MusicManager(Database):
     def __init__(self):
@@ -33,5 +32,3 @@ class MusicManager(Database):
         self.execute("DROP table IF EXISTS music")
         self.commit()
         self.create_music_tables()
-
-

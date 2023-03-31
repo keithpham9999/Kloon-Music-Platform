@@ -5,9 +5,9 @@ from Database import Database
 from LogInManager import LogInManager
 from MusicManager import MusicManager
 
-#from src.main.python.Database import Database
-#from src.main.python.LogInManager import LogInManager
-#from src.main.python.MusicManager import MusicManager
+# from src.main.python.Database import Database
+# from src.main.python.LogInManager import LogInManager
+# from src.main.python.MusicManager import MusicManager
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "secret key"

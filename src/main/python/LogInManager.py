@@ -5,8 +5,9 @@ import bcrypt
 from Database import Database
 from DatabaseError import DatabaseError
 
-#from src.main.python.Database import Database
-#from src.main.python.DatabaseError import DatabaseError
+
+# from src.main.python.Database import Database
+# from src.main.python.DatabaseError import DatabaseError
 
 
 class LogInManager(Database):
@@ -73,7 +74,6 @@ class LogInManager(Database):
         except DatabaseError:
             pass
 
-
     def add_user(self, id, first_name, last_name, username, password):
         # Create a new user to be inputted into the user table
         """Adds a new account to the database and assigns them an ID
@@ -124,5 +124,3 @@ class LogInManager(Database):
             return True
 
         return data[0][0] != 1
-
-
