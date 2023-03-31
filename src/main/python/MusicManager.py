@@ -19,6 +19,14 @@ class MusicManager(Database):
         data = self.cursor.fetchall()
         return data
 
+    def get_genre(self):
+        """Retrieves all the music from music table
+        """
+        # Get the different types of food
+        self.execute("SELECT * FROM genre")
+        data = self.cursor.fetchall()
+        return data
+
     def clear(self):
         """Refreshes all music tables
         """

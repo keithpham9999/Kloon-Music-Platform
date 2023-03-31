@@ -160,7 +160,5 @@ class TestLogin(unittest.TestCase):
         self.assertEqual("batman333", self.login.get_user(username)[0][2])
 
 
-
-
 if __name__ == '__main__':
     unittest.main()
