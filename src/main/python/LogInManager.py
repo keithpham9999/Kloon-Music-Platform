@@ -5,6 +5,9 @@ import bcrypt
 from Database import Database
 from DatabaseError import DatabaseError
 
+#from src.main.python.Database import Database
+#from src.main.python.DatabaseError import DatabaseError
+
 
 class LogInManager(Database):
     def __init__(self):
@@ -35,8 +38,6 @@ class LogInManager(Database):
         """
         try:
             password = str.encode(password)
-            print(password)
-            print(hash)
             return bcrypt.checkpw(password, hash)
         except TypeError:
             # If the parameter hash is not encoded correctly, i.e a String was passed
@@ -71,7 +72,7 @@ class LogInManager(Database):
             self.add_user(2, "Sub", "Focus", "subfocus4375", "fhsdf456")
         except DatabaseError:
             pass
-        self.close()
+
 
     def add_user(self, id, first_name, last_name, username, password):
         # Create a new user to be inputted into the user table
@@ -108,5 +109,20 @@ class LogInManager(Database):
         if len(data) == 0 or len(data[0]) == 0:
             return (["Null", "Null", "Null"])
         return data
+
+    def is_username_unique(self, username):
+        """Checks whether the username is unique in the database
+
+            Keyword arguments:
+            username    -- The username that is going to be checked
+        """
+        # Check whether a username already exists in the database as usernames must be unique even though they
+        # are not primary keys
+        self.execute(f"SELECT 1 FROM user WHERE lower(username) = '{username.lower()}' ")
+        data = self.fetchall()
+        if len(data) == 0:
+            return True
+
+        return data[0][0] != 1
 
 

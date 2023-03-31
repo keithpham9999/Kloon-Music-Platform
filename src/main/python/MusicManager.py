@@ -2,6 +2,8 @@ import sqlite3
 
 from Database import Database
 
+#from src.main.python.Database import Database
+
 class MusicManager(Database):
     def __init__(self):
         """Initialises database and add tables
