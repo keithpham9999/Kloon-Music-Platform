@@ -9,6 +9,9 @@ from MusicManager import MusicManager
 # from src.main.python.LogInManager import LogInManager
 # from src.main.python.MusicManager import MusicManager
 
+# The statements above are for testing purposes
+# when using Python unit tests modules
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "secret key"
 

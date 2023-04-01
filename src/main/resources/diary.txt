@@ -5,130 +5,422 @@ Starting date from 29th September
 
 29th September 2022
 I made my first commit today by creating the README.md file
-with the introduction the Kloon- my project.
+with the introduction the Kloon - my project.
 
 
 1st October 2022
+I am spending more time to learn more about Spotify and its features to implement into my
+project Kloon. First, I thought of the idea of giving it a logo, so I went on the Internet to look
+for a logo which has letters KL, which will pretty much represent Kloon and make some sense to it.
+I found one that I really like from the internet, and I have decided to contact the image owner if I
+could use their image for my personal project, and they agreed.
 
 4th October 2022
+At first I am considering choosing the appropriate tools and techniques for my project.
+I have decided to use Flask as my framework
+Python as my main coding language
+HTML for scripting langauge
+CSS for styling my web pages
+Also, I will use sqlite3 for hosting my database locally
+I prefer this to PostgreSQL even though I find PostgreSQL better
+because I do not need to open a connection to a remote database, and
+I am not planning to buy a domain for my web application. It means that I could just host
+my database locally to the best of my convenience.
 
 7th October 2022
+Today I plan to get a structure of the folders in my code first
+since the more organised my folders are, the better when I modify
+my configuration inside Pycharm.
+I will get it done by sorting all of my code and necessary files into python folder on GitLab
+Also, I will not have to mess around my
+code and try to find the location of any files if I have to use their paths for segments
+of my code later.
+
+Today I have also written and prepared my project plan to be submitted and graded by my supervisor.
 
 10th October 2022
+I have not really been doing anything with my project as I just submitted my project plan.
+Also, I was spending most of my time on just preparing my project plan.
+Which means that I did not concentrate on doing any of my other work.
+When I am doing something, I will put 100% of my efforts in getting it done as soon as possible
+I am focusing on revising the materials of the other modules including lab sheets.
 
 13th October 2022
+I have got my free time now, so I am starting to look at the music that I want to put in Kloon.
+The aim is to put 100 songs into the database, which is quite ambitious I know.
+However, I am facing a copyright problem as all the songs are artist's work and grey matter.
+Hence, I will not have access to a million of songs from artists all over with a variety of
+genres, countries for free, and I have to work my way around it.
+It means that I will have to pay for their songs because my morals do not let me
+get on pirated websites and get them for free, not only it is harmful for my pc, but also it
+will be considered being unprofessional in my opinion.
+I really want to show my appreciation to the work of the other artists.
+Another way of doing it is that using Youtube music converter to convert Youtube music videos
+into mp3 files but again that is illegal.
+I will take this into consideration and come up with a solution for the next few days.
+
 
 16th October 2022
+I aim to finish my list of 100 songs that I want to add into my database today.
+Since the number of songs are limited, I would only like to choose one of the best songs
+to the best of my likings and my favourites.
+Additionally, I have finally decided that I will pay for the songs to be able to download it.
+If I want to make some work that I will look back later or be used to demonstrate to people,
+I would better get it from a legal source because this project is literally like my child,
+I want to treat it well and give it all the best possible.
 
 19th October 2022
+I am just started my machine learning coursework and this week.
+I have finished writing down the list of songs that I will add into Kloon.
+Now I will actually go on Beatport - a popular website for downloading EDM
+(Electronic Dance Music) tracks. With the price ranging from £0.99 to £1.98
+for all the tracks that I am looking for.
 
 22nd October 2022
+I have paid a total of £145.98 for 100 tracks with 81 Drum&Bass tracks and 19 other
+tracks of Trap, Hardstyle, and House. It is a bit of money, but then it will be worth
+it because I am going to definitely reuse my work later.
+I plan to have an idea of how I will put the tracks that I bought into my database.
 
 25th October 2022
+I have learned about how to visualise the tracks with a player using HTMl, so I have
+got an idea of how to put my tracks into my database now.
+I can get it done by extracting the source of the tracks in my music folder and put it
+into audio section of my HTML file.
+However, to be able to do that, I will have to store the source of my tracks in the table
+containing all information about my tracks.
 
 28th October 2022
+I have got a meeting with my supervisor today to talk about my plan ahead, the work
+I have done so far and any further adjustments to my work. I really treasure the talk
+that we had today during the meeting as he kept encouraging me and giving me really valuable
+advices and suggestions.
+I have finished my first coursework for machine learning module and submitted it.
+I have just been working on my machine learning coursework and have not put any thoughts
+towards my project. Right now I am going to move on to finishing the advanced algorithms
+and complexity assignment which is due on 2nd November.
+On the other hand, I did have an idea of how my home page would look like, so I did look at
+Spotify web page to get some ideas and turned out I have customised the idea of my own home page.
+I will have some previews of songs that I want people to try and hear, just like a discovery
+section
 
 1st November 2022
+I have spent the past days doing researches for advanced algorithms and complexity assignment,
+and I just submitted it today. Right now I am trying to wrap my head around creating a database
+first, thinking of the possible tables and having some researches of implementing and making
+sqlite work together with the first step of initialising the database.
 
 4th November 2022
+I am struggling when setting up my GitLab repo and trying to put them into Pycharm IDE
+through Terminal on my Mac. I had to deal with MacOS Keychain when I was setting my information
+for my GitLab account. It took me ages to do research and set up my MacOS Keychain to be able to
+connect to my GitLab account using Terminal and integrate it into my Pycharm IDE.
 
 7th November 2022
+Today I have done the work for UCD(User-Centred Design) module submission,
+and now I can get back to my project after setting up my IDE completely.
+I have done my another research on how 'os' module to be used for choosing the path
+to store my database.
+Right now I am spending hours trying to create a table using sqlite3, but I kept receiving
+errors like cannot find the path to my database. Even though I have checked my database
+generation path over and over again, and made sure that everything is correct; still I
+could not seem to resolve the problem. I will sort that in a few days as I still need to keep
+learning and get myself more familiar with flask framework.
 
 10th November 2022
+I have resolved the problem completely, turns out that it was the configuration from Pycharm
+IDE that messed up my source path for my database. I have printed out the source path, so I fixed
+my configuration with the working directory is the root folder of my project, which is PROJECT.
+By deleting src/main/python, the code is working fine again. I really need to be careful with
+the source path as later on I may have problems when I am trying to reuse an object or put an
+object on unit test.
 
 14th November 2022
+I am still putting tracks into music table that I have created, it is indeed a bit of
+time-consuming task. I have just managed to put in 40 tracks today. I will do the rest in a few
+days since I needed to work my way round the tracks to be able to show it on the website.
 
 17th November 2022
+I have been working on the other modules and just submitted the coursework 2 for advanced
+algorithms and complexity module. In the next few days, I plan to focus on the other coursework
+submit them as we are getting closer to the end of this term and there will be a lot of deadlines.
 
 20th November 2022
+Today I have done the second coursework for machine learning. Additionally, I have completed
+putting 100 tracks into my database, and I am now doing some more research on how to make flask
+work with html to extract the source of my music into my html code. Finally, after experimenting
+and playing around a lot, I have managed to extract the source path of my track to work together
+with flask and html. I am planning to get my home page done for the next few days.
 
 23rd November 2022
+I am struggling with configuring of div blocks and arranging them altogether as I strive for
+perfection with every single small detail of my home page. I have familiarised myself with all css
+syntax as I managed to put my blocks altogether as expected and symmetrical as how I planned them to be
+from the beginning. I have spent quite a bit too much time on just configuring the home page and tried to
+make it as most perfect as possible. I will now start working on my interim report towards the end of
+this term.
 
 26th November 2022
+I have documented my code and just focusing on getting my UCD module group project done and working on
+my interim report at the same time. Now I am working on filming the video for my interim report.
 
 29th November 2022
+The report for UCD have been submitted, I am working the last bits of my interim report to be submitted.
+I will be working on the individual report for UCD alongside with the new machine learning assignment
+that I have just been given.
 
 1st December 2022
+I am going to finish my interim report soon. I have just done working on my UCD individual report
+and submitted it the Moodle page. It has taken me quite a bit of term doing research and reflective
+work.
 
-4th December 2022
+2nd December 2022
+I just heard from my family this morning that my grandparents just passed away. It has been
+heart-breaking for me, and it was probably the worst morning I have ever had in 2022. My
+grandparents have raised me alongside with my parents since I was just a little child. I am catching
+next earliest flight to get back to my hometown in Vietnam to see my grandparents once again before
+they get cremated along with the coffin. I have cried so much today and again today is an awful
+day for me.
 
-7th December 2022
+3rd December 2022
+I have got back to Vietnam now, and I was in such a hurry with a very unstable mental health at the
+moment. After getting back from airport, I have realised that I have left my laptop at home in the UK,
+with my interim report in there, and it was stored locally on my Mac, which was the worst part. I
+could only blame myself for everything, I was in a hurry, I was trying to grab what was just possible
+at that moment. My brain was just thinking about my dearest grandparents at that time. I can say that
+I am feeling the most vulnerable right now as things just go out of my way one after another, things
+just get out of hands.
+
+6th December 2022
+I do not think I will be able to work on anything at the moment. I am still crying very much right now,
+and I wish that I would be able to feel a bit better for the next few days because I have got my third
+assignment for machine learning to get done as well.
 
 10th December 2022
+I am finally feeling a bit better and learning to accept the facts that it is just how life works.
+I have got to continue progressing and not allowing myself to have anything to hold me back. I have
+started doing my third assignment for machine learning now, and hopefully it will be done right just in
+time. I will get back to my project as soon as I complete setting up software, tools, IDEs needed
+for my dad's PC at home.
 
-13th December 2022
+12th December 2022
+I have submitted my last machine learning assignment, and now I am going to set up my dad's PC to
+continue working on my project as I have just done the home page for it. Also, I am preparing for my
+trip back to the on 16th December as I feel like my mental health has improved after spending some time
+with my family during Christmas holiday. I have put and edited the requirement file, so it would run
+and install the right version with necessary plugins and imports of bcrypt, flask, etc... to make
+sure that it would be able to run on any machine later on in the future. That will also guarantee
+the most compatible requirements, so I would not have to spend time later on setting up them all by
+myself.
 
 16th December 2022
+I am getting the flight to the UK now, and I should arrive by tomorrow. I will leave all of my worries
+behind back at Vietnam, and get ready to bounce back, get back to my work routine in the UK.
 
 19th December 2022
+After getting back to the UK and having finished settling down with everything including my mental
+health. I have now managed to put basic functionalities for my home page such as log in button or
+button back to the home page. I am planning to work on the login page to authorise access as well as
+improving securities for my web page. After all, security features are crucial for a web application
+as information is very vulnerable online or mostly exposed to the hackers.
 
 22nd December 2022
+I am learning bcrypt, a hashing and salting feature that will hash the user password and will always
+produce the same hash for the same password. I am still trying out and testing to implement this
+login feature
 
 25th December 2022
+I have tried putting some users into the database, and they turned out to work quite well after getting
+stuck for quite a bit of time of this because I did not really familiarise myself with this hashing
+and salting method. However, I have got the hang of it right now, and I will progress to test my login
+page when I have done the html file for it, so I could see some sort of visualisation of my work.
 
 28th December 2022
+I am still stuck on the login page. I cannot really help myself to get a solution to be able to
+get to the music page that displays music by getting the right user login credentials, it keeps
+failing to log in even thought the login details are correct as I inserted them into the user table
+of my database myself.
 
 1st January 2023
+I am still finding my way around to try and fix the login problems. It would not function as how I
+want it to do, so I am now checking and debugging my code step by step carefully. Hopefully, I can
+solve the problem for the next few days.
 
 4th January 2023
+I have managed to put my login credentials correctly and now the login page is working just fine.
+I have tried different approaches and found the root of the problem. Now I can even check if the
+username given is experiencing an aliasing problem with the other usernames in the database.
+Though I have submitted my individual report for UCD module, I am going do check it again
+and add some more features to it as my team was sending mr more materials to work on the report.
 
 7th January 2023
+I have fully submitted my individual report for the UCD module and right now I think I will be writing
+some unit test cases for the Database class that I have written. I am trying to import the single python
+class file into the unit test file, but it does not seem to recognise the original class file to run
+and test it. Hence, I am stuck again, I will work through it for a few more days to try to figure out
+what the actual problem is because it keeps telling me that it could not find the original file.
+I aim to finish testing this class so the software engineer TDD cycle will be followed strictly.
 
 10th January 2023
+After days of experimenting it, I have figured the way to import the original python file into the
+unit test file now. At the moment, I am confident to say that I have handled the way how to work
+around import statements and avoid circular import because that was the actual problem,and I spent
+a lot of time doing research to understand the root of the problem.
 
 13th January 2023
+I have got family problem again as my mum was diagnosed with an awful skin disorder called psoriasis
+a few days ago. Not only that, my dad has not been taking care of my mum, and she had to went to hospital
+to check her condition all by herself. Also, my parents want to split up since they are getting along
+with each other really well anymore. Again, I feel sad, and obviously my mental health is affected.
+I am going back to Vietnam soon to take care of my mum for a bit since she is feeling really down and
+all by herself right now.
 
 16th January 2023
+I am going to the airport today to catch a flight back to Vietnam. I am bringing my laptop
+this time, which is good. On the flight right now I am thinking about putting artwork for the
+song while I was brainstorming ideas of how to improve user experience and make my web application
+more interesting as well. I will consider the importance of it because that would mean that I may have
+worry about copyright problem again. Therefore, I will think of it for a few days.
 
-19th January 2023
+17th January 2023
+I have got back to my mum at the moment and spending time taking care of her right now. She has
+felt a lot better since I got back. I am going to go back and unpack then I will try putting some
+pictures in my songs. I actually talked with the artists that actually made the artwork of those songs
+and got their permission to use their artwork as part of my work, so it would not be a big problem
+to me right now anymore. However, I cannot afford the time and efforts to go around and ask 100 other
+artists to get their permission to use their artwork for every of my songs. Hence, I am going to ask
+just 3 artists to get their artwork featured in the corresponding songs and put it on top of my home
+page.
 
 22nd January 2023
+My mum condition has not got any better, I have figured that putting image in the song is just the same as putting music into the database
+for flask to work with html and python. I will have to get the source path of the images in the
+related folder to get them on display. Hence, I managed to do Kloon logo and put 3 artworks of its
+corresponding songs on my home page to visualise it.
 
 25th January 2023
+I am taking part in sorting out the split up plan together with my parents today and hopefully my
+parents will all be happy. I will continue to stay with my mum until she feels more comfortable,
+and when her condition gets better as well.
 
 28th January 2023
+I am still travelling back and forth from home to hospital and back home communally. I am still
+trying my best now to think of any ideas right now, but it will just not come up. Probably, I am
+not in a stable mood right now to think of any other thing other than my mum.
 
 1st February 2023
+My mum condition is progressing a little well, a bit positively. After some talks with my mum
+and my family, I can finally feel comfortable and assured to focus on my work right now. The past
+weeks have not really been easy for me. It is just relief to me to see her get bit better day by day.
+Right now I need to work on my mental health first, a lot has been going on for the past few months
+to me, and I will learn my way to handle it. Life will just go on, and I will just have to
+accept whatever will come next.
 
 4th February 2023
+I am working on the css for my home page, my login page and my music page right now. I start to get
+some ideas of how it will look like somewhat for my login page, I will just try to make is look
+simple but elegant which will please my eyes.
 
 7th February 2023
+I am now doing my first functional programming assignment at the moment. Also, later on I will move
+straight onto my computational optimisation assignment.
 
 10th February 2023
+I have submitted my functional programming assignment today. I will spend the next few days to get
+my computational optimisation done as soon as possible, so I can move back to implementing and
+finish my project right after.
 
 13th February 2023
+I am now finishing the last bits of my computational optimisation assignment, and I will probably
+submit it today.
 
 16th February 2023
+My mum can finally go home now along with her treatment at home. She no longer needs to be in
+hospital anymore, the condition is progressing very well, and I literally cannot hold myself back
+from tears. She can take care of herself now, and I am planning my flight to the UK again. I should
+catch a flight for the next few days. I will be preparing for the flight, so I will stop doing my
+work for a few days.
 
 19th February 2023
+I am having flight today back to the UK. I will soon settle and finish the rest of my code.
 
 22nd February 2023
+I have finished the rest of my unit tests for all of my Python classes. Additionally, I can
+confidently say that I have handled basic functionalities through the tests and ensured that
+there will be no problems with my code under my examination. I have tested all of my functions and
+the test result came out as expected. For the next few days I am going to work on my second
+functional programming assignment, and then I will work on my second computational optimisation
+assignment.
 
 25th February 2023
+I have started getting ideas for my final report for my final year project as well as the total
+structure of it. I plan to have at least 5000 words for it by the end of this month.
 
 28th February 2023
+I am finishing off the second assignment for functional programming today. I plan to submit it in
+a few days. I have completed the project specification section for my final year project final
+report.
 
 1st March 20232
+I have just submitted the last piece of the second assignment for functional programming today.
+Now I will work on the second piece of assignment for computational optimisation. I plan to finish
+it by 7th March.
 
 4th March 20232
+I am now still staying focused on doing the second assignment for computational optimisation. I
+am now choosing the topic to write for professionalism as well. I am doing research about it at the
+moment. Hopefully, I will come up with an idea soon of what I want to right. In a few days, I should
+know what to write about.
 
 7th March 2023
+I have submitted the second assignment for computational optimisation. I have now chosen the topic
+for professionalism about Licencing: shareware, open source, copyright, patenting, reverse engineering.
+This is obvious because I have encountered quite a few issues while I was implementing this web
+application. Also, I have spent a lot of money as well. Moreover, Spotify uses a lot of open source
+software. This would be an interesting topic to talk about since it is very much related to my final
+year project.
 
 10th March 2023
+Today I am making a demo video, a proof of concepts showing how I deploy my code and get it to work.
+Besides, I will show how my web application operates and runs under the most realistic view. I will
+talk about its functionalities and how I have configured my working environment in my Pycharm IDE.
+On top of that, I will also demonstrate how I have set up virtual environment and installed
+plugins requirements for this project.
 
 13th March 2023
+Today I have got my left shoulder dislocated while training at the gym, unfortunately. I was later
+on sent to A&E department at Ashford and St.Peter's hospital. It is hurting very much, and I can barely
+move my left shoulder. I was waiting for 7 hours before getting inspected. I was told to have a
+joint injury for my left shoulder then I was given a sling for my arm. I am now spending the whole night in
+the hospital, and I will be able to get back the next day. I was told to limit my movement with my left shoulder to
+the least possible. Also, I will have to attend therapy sessions with NHS staff for my shoulder
+recovery progress.
 
 16th March 2023
+I have started writing and doing researches for my cybersecurity report. However, my productivity
+is very limited because sitting up to do work is a real pain for me. I do need the bed to rest. I have
+also applied for extenuating circumstances to get a bit more time to work on my project due to the
+unexpected injury that I have received. Hopefully, I can get a bit more time to finish my work because
+I have also applied for an extension.
 
 19th March 2023
+I have to keep writing my cybersecurity literature review today alongside with the final report.
+I am encountering a bit of problem since I have got a sling on my left shoulder, and I have to write
+the report with just one arm. I have also got a meeting with my supervisor today to share about the events
+that happened to my life recently. I really appreciate the fact that my mental health has got a lot
+better after the meeting as much advice, suggestions, recommendations were given. I am feeling so
+much better now, that was a valuable talk that kept me going on with my work. I am feeling very
+grateful and happy right now.
 
 22nd March 2023
+I am going to finish the literature review for cybersecurity soon to be submitted. Then, I will
+move straight away to work on the final report for final year project.
 
-25th March 2023
+24th March 2023
+I have submitted the literature review for cybersecurity, and now I am focused entirely on just getting
+my final report for final year project done.
 
-28th March 2023
 
-31th March 2023
 
 
 

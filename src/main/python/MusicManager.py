@@ -19,7 +19,7 @@ class MusicManager(Database):
         return data
 
     def get_genre(self):
-        """Retrieves all the music from music table
+        """Retrieves all the genre from genre table
         """
         # Get the different types of food
         self.execute("SELECT * FROM genre")
