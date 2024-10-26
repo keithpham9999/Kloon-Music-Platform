@@ -60,6 +60,11 @@ from src.main.python.DatabaseError import DatabaseError
 
 By doing this, Pycharm will not complain about the not finding the source file and it will make life a lot easier.
 
+Login credentials:
+
+Username: oliver1999
+
+Password: qwert123
 
 
 
